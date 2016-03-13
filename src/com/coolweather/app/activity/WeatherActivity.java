@@ -109,7 +109,7 @@ public class WeatherActivity extends Activity implements OnClickListener {
 		cityNameText.setVisibility(View.VISIBLE);
 		
 		Intent intent = new Intent(this, AutoUpdateService.class);
-		startActivity(intent);
+		startService(intent);//Æô¶¯·þÎñ
 	}
 
 	private void queryWeatherCode(String county_code) {

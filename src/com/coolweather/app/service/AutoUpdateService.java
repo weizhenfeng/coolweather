@@ -17,7 +17,7 @@ import android.preference.PreferenceManager;
 public class AutoUpdateService extends Service {
 
 	@Override
-	public IBinder onBind(Intent arg0) {
+	public IBinder onBind(Intent intent) {
 		return null;
 	}
 	
